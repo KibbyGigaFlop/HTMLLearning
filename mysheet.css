@@ -1,13 +1,4 @@
-/*Hiding. only showing what i could do with <style>. Further edits of 
-CSS will be in other file.
-<style>
-
-
-html {background-color: rgb(42, 48, 48);}
-h1 {color: rgb(163, 119, 204);}
-body {font-family: 'Courier New', Courier, monospace;
-    text-align: center;}
-a,a.clicked {color:blueviolet;text-decoration: none;font}*/
+/* === Overall Page Formats === */
 
 html {
 
@@ -18,6 +9,9 @@ html {
     font-size: 14px;
     padding: 40px;
 }
+
+/* === LINKS === */
+
 a:visited,a:link {
 
     color:rgb(103, 124, 143);
@@ -28,17 +22,29 @@ a:hover {
     color:rgb(210, 224, 238);
 
 }
-img {
+
+/* === IMAGES === */
+
+img{
+
+   height: 200px;
+   border-radius: 50px;
+
+}
+img.profile {
 
     border-radius: 50%;
     border: 5px solid black;
     border-width: 5px;
 }
+
+/* === PARAGRAPH/BODY FORMATTING === */
 p{
     margin: 50px;
     padding-left:60px;
     padding-right:60px;
 }
+
 hr {
 
     margin-left: 150px;
